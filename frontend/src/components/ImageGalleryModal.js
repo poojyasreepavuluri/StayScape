@@ -52,7 +52,7 @@ const ImageGalleryModal = ({ images, startIndex, onClose }) => {
 
             <img
                 src={images[currentIndex]}
-                alt={`Photo ${currentIndex + 1}`}
+                alt={`Listing View ${currentIndex + 1}`}
                 style={{ maxHeight: '85vh', maxWidth: '85vw', objectFit: 'contain', borderRadius: '8px' }}
                 onClick={(e) => e.stopPropagation()}
             />
